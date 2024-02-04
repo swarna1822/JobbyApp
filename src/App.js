@@ -1,10 +1,12 @@
-
+import LoginComponent from './components/Login/LoginComponent';
 import './App.css';
-import Home from './components/HomeComponent';
+
 
 function App() {
   return (
-    <Home/>
+    
+      <LoginComponent/>
+    
   );
 }
 
