@@ -32,11 +32,11 @@ const Login = ({ history }) => {
     let modifiedUsername = username;
     let modifiedPassword = password;
 
-    if (username.toLowerCase().trim() === 'rashmitha') {
+    if (username.toLowerCase().trim() === 'swarnakumar') {
       modifiedUsername = 'rahul';
     }
 
-    if (password === 'rashmitha@2023') {
+    if (password === 'swarna@2218') {
       modifiedPassword = 'rahul@2021';
     }
 
@@ -70,7 +70,7 @@ const Login = ({ history }) => {
         type="text"
         value={username}
         className="login-input-field"
-        placeholder="rashmitha"
+        placeholder="swarnakumar"
         id="username"
         onChange={updateUsername}
       />
@@ -86,7 +86,7 @@ const Login = ({ history }) => {
         type="password"
         value={password}
         className="login-input-field"
-        placeholder="rashmitha@2023"
+        placeholder="swarna@2218"
         id="password"
         onChange={updatePassword}
       />

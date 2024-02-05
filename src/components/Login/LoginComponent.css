@@ -1,12 +1,13 @@
 .login-container {
-    background-color: #000000;
+    background-image: url("/public/formbg.jpg");
     min-height: 100vh;
     display: flex;
+    background-size: cover;
     justify-content: center;
     align-items: center;
   }
   .login-form {
-    background-color: #272727;
+    background-image: url("/public/loginbg.jpg");
     padding: 20px;
     border-radius: 8px;
     display: flex;
@@ -39,7 +40,7 @@
     font-size: 14px;
     font-weight: 600;
     margin-left: 2px;
-    color: #f8fafc;
+    color: #448aff;
   }
   .login-input-field {
     flex-grow: 1;
