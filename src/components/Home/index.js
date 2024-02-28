@@ -1,9 +1,9 @@
-import React from 'react'
 import {Link} from 'react-router-dom'
-import Header from '../Header/HeaderComponent'
+import Header from '../Header'
+import './index.css'
 
-const HomeComponent = () => {
-    <div className="home-container">
+const Home = () => (
+  <div className="home-container">
     <Header />
     <div className="home-page">
       <div className="home-page-content">
@@ -20,6 +20,6 @@ const HomeComponent = () => {
       </div>
     </div>
   </div>
-}
+)
 
-export default HomeComponent
+export default Home

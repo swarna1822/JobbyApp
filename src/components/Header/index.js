@@ -1,10 +1,10 @@
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 import {AiFillHome} from 'react-icons/ai'
 import {BsFillBriefcaseFill} from 'react-icons/bs'
 import {FiLogOut} from 'react-icons/fi'
 import Cookies from 'js-cookie'
 
-import './HeaderComponent.css'
+import './index.css'
 
 const Header = props => {
   const onClickLogout = () => {
@@ -62,4 +62,4 @@ const Header = props => {
   )
 }
 
-export default Header;
+export default withRouter(Header)
